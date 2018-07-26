@@ -7,9 +7,9 @@
   <body>
     <p>
       <?php
-        $var;
-        settype($var, 'int');
-        echo $var;
+        $var;/*déclaration de la variable sans rien nommer*/
+        settype($var, 'int');/*Définition de la variable en nombre entier*/
+        echo $var;/*Affichage de la variable*/
        ?>
     </p>
   </body>

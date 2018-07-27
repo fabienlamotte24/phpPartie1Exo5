@@ -7,9 +7,14 @@
   <body>
     <p>
       <?php
-        $var;/*déclaration de la variable sans rien nommer*/
-        settype($var, 'int');/*Définition de la variable en nombre entier*/
-        echo $var;/*Affichage de la variable*/
+        $nothing = NULL;/*déclaration de la variable avec NULL*/
+        settype($nothing, 'int');/*Définition de la variable en nombre entier*/
+        echo $nothing;/*Affichage de la variable*/
+        ?>
+      <br />
+      <?php
+        $nothing = 561511;
+        echo $nothing;
        ?>
     </p>
   </body>
